@@ -1,0 +1,164 @@
+html{
+    background-color:black;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+header h2{
+    color:white;
+    text-align: center;
+    margin-top: 30;
+}
+h2, p, form{
+    color: white;
+    margin-left: 100;
+}
+#menu ul {
+	list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template: auto / repeat(6, 1fr);
+    align-content: center;
+}
+#menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#menu a.current {
+	color: greenyellow;
+}
+
+
+
+
+.container{
+    margin:0px 70px;
+    color:#fff
+}
+
+.bio-header{
+    text-align: center;
+    margin-top:60px
+}
+
+.carousel-slide img{
+    width:100%;
+    height:auto
+
+}
+
+.carousel-container{
+    width:60%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.carousel-slide{
+    display:flex;
+    width:100%;
+    height:auto
+}
+
+#prevImage{
+    position: absolute;
+    top:70%;
+    z-index: 10;
+    left:25%;
+    cursor:pointer
+}
+
+#nextImage{
+    position: absolute;
+    top:70%;
+    z-index: 10;
+    right:25%;
+    cursor:pointer
+}
+
+
+button{
+    border:none;
+    background-color: none;
+}
+
+.first_letter{
+    font-size: 50px;;
+}
+
+.bio-data p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.videos{
+    display:flex;
+    justify-content: center;
+}
+
+.first_video{
+    margin-right:20px;
+}
+
+.social_media{
+    margin:0px 80px;
+    margin-bottom: 50px;
+}
+
+.subscribe{
+    margin:0px 80px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.button{
+    padding:20px;
+    background-color: blue;
+    width:150px;
+    font-weight:500;
+    border-radius:10px
+}
+
+.button a{
+    text-decoration: none;
+    color:#fff
+}
+
+.links{
+    display:flex;
+
+}
+
+.insta{
+    margin-right:25px;
+}
+
+.facebook{
+    margin-right:25px;
+     
+}
+
+@media only screen and (max-width: 600px) {
+    #nextImage img{
+        width:50%;
+        height:auto;
+        margin-right:20px
+    }
+
+    #prevImage img{
+        width:50%;
+        height:auto;
+        margin-left:20px
+
+    }
+    .videos{
+        display:block;
+        justify-content: center;
+    }
+}

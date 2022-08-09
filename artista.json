@@ -1,0 +1,70 @@
+{
+  "sings": [
+    {
+      "id": "001",
+      "name": "Eva Ayllon",
+      "description" : "She has won the Latin Grammy for Musical Excellence for her contribution to culture,4 and has been nominated ten times for Best Folk Album. Considered the best cultist of Creole and Afro-Peruvian music, the versatility of her voice showed her beginning to venture into various musical genres",
+      "imagen"  : "images/Eva.jpg",
+      "video"   :"r6L3Inu3C1g"
+    },
+    {
+      "id": "002",
+      "name": "Chabuca Granda",
+      "description" : "She was one of the most emblematic voices of Peruvian Creole music. His songs 'La flor de la canela', 'Fina Estampa', 'José Antonio' ​​, and others, evoke the culture, history, and folklore of Peru. His musical legacy was declared Cultural Heritage of the Nation in 2017.",
+      "imagen"  : "images/Chabuca.jpg",
+      "video"   :"J6gX-LCbNK8"
+    },
+
+    {
+      "id": "003",
+      "name": "Ymac Sumac",
+      "description": "Yma Súmac -which means how beautiful in the Quechua language. She did not take singing classes and became self-taught, imitating the song of birds and polishing her vocal capacity by herself, which allowed her to reach countries such as Mexico, Argentina, and Chile.",
+      "imagen"  : "images/Imac.jpg",
+      "video"   :"PiOraf7Ygcc"
+    },
+
+    {
+      "id": "004",
+      "name": "Amanda Portales",
+      "description":"She is a renowned singer, author, composer and folklorist. It is popularly called the bride of Peru. She is recognized for her active role as a promoter of Andean folklore, which has allowed her to sing on various stages and in native languages ​​such as Quechua and Aymara.",
+      "imagen"  : "images/Amanda.jpg",
+      "video"   :"OKtkjUdZbSc"
+    },
+
+    {
+      "id": "005",
+      "name": "Uchpa",
+      "description":"This group achieved notoriety singing in Quechua. Formed in Ayacucho in 1994, first playing Nirvana covers in Quechua, and later blues from the 60's and 70's.",
+      "imagen"  : "images/uchpa.jpg",
+      "video"   :"f_5TbqJb3K8"
+    },
+
+    {
+      "id": "006",
+      "name": "Damaris",
+      "description":"Contemporary Andean music singer-songwriter, winner of the folklore competition at the 2008 Viña del Mar Song Festival.",
+      "imagen"  : "images/damaris.jpg",
+      "video"   :"AMKr90k6HeA"
+    },
+
+    {
+      "id": "007",
+      "name": "Juaneco y su Combo",
+      "description":"They were the first musical group formed in Pucallpa, the pioneers of cumbia from the east in Peru, with a sound that they recorded in a forced way to their homeland since they imprinted on their songs the typical joy of the people of that area of ​​the country. . They came to play in other countries, such as Colombia, Ecuador, Venezuela, and Brazil.",
+      "imagen"  : "images/juaneco.jpg",
+      "video"   :"-GBCVyLkV9M"
+    },
+
+
+    {
+      "id": "008",
+      "name": "Los Mirlos",
+      "description":"They're the creators of the Amazonian cumbia, one of the many manifestations of Peruvian cumbia. It is a group of long trajectory, originally from the city of Moyobamba, in the department of San Martin, in Peru, whose jungle origin earned them the nickname of Los Charapas de Oro (The Golden Charapas).",
+      "imagen"  : "images/mirlos.jpg",
+      "video"   :"MMy9a8XSsyU"
+    }
+
+
+
+  ]
+}

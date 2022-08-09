@@ -1,0 +1,185 @@
+html{
+    background-color:black;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+header h2{
+    color:white;
+    text-align: center;
+    margin-top: 30;
+}
+h1, h2, h3{
+    color: white;
+    margin-left: 100;
+    
+}
+p {
+    color: white;
+    margin-left: 100;
+    font-size: 25px;
+    max-width:1700px;
+}
+form{
+    color: white;
+    margin-left: 100;
+    font-size: 20px;
+}
+#menu ul {
+	list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template: auto / repeat(6, 1fr);
+    align-content: center;
+}
+#menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#menu a.current {
+	color: greenyellow;
+}
+blockquote{
+    color: white;
+    margin-left: 100;
+    font-size: 22px;
+}
+
+#eventimage img{
+	width: 85%;
+}
+ 
+form {
+    margin: 0 auto;
+    padding: 0 2em 1em;
+}
+#sub{
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 5em;
+    text-align: left;
+    margin-left: 70px;
+}
+input, select {
+    margin-left: 10px;
+    margin-right: 0.5em;
+}
+
+span {
+    color: red;
+}
+.messages {
+    border: 3px solid red;
+    color: red;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+#home{
+    max-width: 100%;
+}
+#comment{
+    color:white;
+    margin:40px 0 40px 60px;
+    max-width:1700px;
+    min-width: 300px;
+    border:3px solid white;
+
+}
+#comment h1, #comment h2{
+    margin-left: 21px;
+}
+#comment ul {
+    margin-left: 21px;
+    font-size: 25px;
+    color:white;
+}
+
+#comment input {
+    margin-bottom: 21px;
+    margin-left: 21px; 
+}
+textarea {
+    height: 10em;
+    width: 25em;
+    margin-left: 21px; 
+}
+footer{
+    color:white;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    margin-left: 50px;
+}
+  .grid-item {    
+    padding: 5px;
+  }
+
+  
+  @media only screen and (max-width: 820px){
+    body {
+        width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 420px){
+    header h2{
+        font-size: 1em;
+    }
+
+    h1{
+        font-size: 1.2em;
+    }
+
+    h1, h2, h3{
+        color: white;
+        margin-left: 50; 
+    }
+    p {
+        font-size: .875em;
+        margin-left: 50; 
+    }
+    form{
+        font-size: .875em;
+    }
+    #menu ul {
+        list-style-type: none;
+        padding: 0;
+        display: grid;
+        grid-template: auto / repeat(6, 1fr);
+        align-content: center;
+    }
+    
+    blockquote{
+        font-size: .875em;
+        margin-left: 50; 
+    }
+    
+    #comment{
+        color:white;
+        margin:40px 0 40px 60px;
+        max-width:1700px;
+        min-width: 300px;
+        border:3px solid white;
+    }
+    #comment ul {
+        font-size: .875em;
+    }
+    
+    #comment input {
+        margin-bottom: .5em;
+    }
+    textarea {
+        height: 10em;
+        width: 20em; 
+    }
+  }

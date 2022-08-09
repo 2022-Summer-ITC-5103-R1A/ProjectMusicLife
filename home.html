@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/main.css">
+        <script src="js/subscribe.js"></script>
+        <script src="js/addcomment.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <title>Home</title>
+    </head>
+    <body onload="commentList()">
+        <!--header section-->
+        <header>
+            <h2>"MUSIC LIFE"</h2>
+            <nav id="menu">
+                <ul>
+                    <li><a class="current" href="home.html">HOME</a></li>
+                    <li><a href="peru.html">PERU MUSIC</a></li>
+                    <li><a href="nigeria.html">NIGERIA MUSIC</a></li>
+                    <li><a href="hk.html">HONG KONG MUSIC</a></li>
+                    <li><a href="game.html">MINI GAME</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--main section-->
+        <main>
+            <img src="images/music_home2.jpg" alt="music home" id="home">
+            <blockquote>
+            "I think music in itself is healing. It's an explosive expression of humanity. It's something we are all touched by. No matter what culture we're from, everyone loves music."
+            </blockquote>
+            <p> - Billy Joel, American Musician</p>
+            <br>
+            <br>
+            <!--About us-->
+            <h1>About MUSIC LIFE</h1>
+            <p>MUSIC LIFE is an non-profit leisure website which promote music culture.
+            The objection of MUSIC LIFE is to promote music culture worldwide. 
+            People can listen music and play games in our website. We would introduce different 
+            types of music from everywhere and would organize different music events with different parties.
+            As of now we have organized muisc festival in Hong Kong, Peru and Nigeria respectively, and 
+            have introduced the muisc of Hong Kong, Peru and Nigeria in our website.
+            We hope everyone would enjoy listening music and promote the music culture with us!
+            </p>
+            <br>
+            <br>
+            <!--Event Photos-->
+            <div id="eventimage">
+                <h1>Photos of Our Previous Events</h1>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="images/hk.jpg" id="left" alt="Music Life Festival: Hong Kong Tour">
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/peru.jpg" id="right" alt="Music Life Festival: Peru Tour">
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/nigeria.jpg" id="bottom" alt="Music Life Festival: Nigeria Tour">
+                    </div>  
+                </div>    
+            </div>
+            <!--Comment-->
+            <div id="comment">
+                <h1 id="headerh1">Comment</h1>
+                <ul id="unOrderList"></ul>
+                <h2>Leave Comments Here!</h2>
+                <textarea id="newComment"name="newComment">
+                </textarea><br>
+                <input type="button" value="Add Comment" id="addButton" OnClick="addComment()">
+            </div>
+            <!--subscrible-->
+            <h1>Subscribe now</h1>
+            <p>Sign up to get more infomation of our latest update.</p>
+            <form action="confirm.html" method="get">
+                <div>
+                    <label for="email_address">E-Mail:</label>
+                    <input type="text" name="email_address" id="email_address">
+                    <span>*</span>
+                </div>
+                <div id="sub">
+                    <label>&nbsp;</label>
+                    <input type="button" id="subscribe" value="Subscribe">
+                    <input type="button" id="reset_form" value="Reset">
+                </div>
+            </form>
+        </main>
+        <!--footer section-->
+        <footer>
+            <hr>
+            <a class="footer1" href="comingsoon.html">Privacy</a>
+            <a class="footer2" href="comingsoon.html">Terms of Use</a>
+            <a class="footer3" href="comingsoon.html">Instagram</a>
+            <a class="footer4" href="comingsoon.html">Facebook</a>
+            <h4>© 2022, Music Life</h4>
+        </footer>
+    </body>
+</html>

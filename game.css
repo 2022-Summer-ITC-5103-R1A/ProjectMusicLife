@@ -1,0 +1,160 @@
+html{
+    background-color:black;
+}
+
+header h2{
+    color:white;
+    text-align: center;
+    margin-top: 30;
+}
+
+main{
+    font-family: 'Mulish', sans-serif;
+}
+
+header h2, header p, header form{
+    color: white;
+    margin-left: 100;
+}
+
+#nowon{
+    color:brown;
+}
+
+#rtcolumn img{
+    float:right;
+    width: 175px;
+    height: 120px;
+}
+
+main{
+    color: white;
+}
+
+#ltcolumn{
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+    padding-left: 50px;
+}
+
+#rtcolumn{
+    display: inline-block;
+    width: 60%;
+    padding-left: 30px;
+    font-family: Lucida Console;
+}
+
+#rtcolumn .rtcolumn_header {
+    display: inline-block;
+}
+
+#rtcolumn .rtcolumn_header.heading {
+    width: 35%;
+}
+
+#rtcolumn .rtcolumn_header.timer {
+    font-size: 36px;
+    font-weight: bolder;
+    width: 20%;
+    text-align: center;
+}
+
+#rtcolumn .rtcolumn_header.image {
+    float: right;
+}
+
+#menu ul {
+	list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template: auto / repeat(6, 1fr);
+    align-content: center;
+}
+
+#menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#menu a.current {
+	color: greenyellow;
+}
+
+#gameBoard {
+    width: 80%;
+    height: 50%
+}
+
+#gameBoard, #gameBoard td {
+    border: solid 1px white;
+}
+
+#gameBoard td {
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+#gameBoard td.available {
+    color: black;
+}
+
+#gameBoard td.bingo {
+    background-color: green;
+    color: white;
+}
+
+#gameBoard td.temp {
+    background-color: blue;
+    color: white;
+}
+
+footer{
+    color:white;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px){
+	#ltcolumn{
+		width: 100%;
+	}
+	#ltcolumn h4 {
+		display: inline-block;
+		width: 19%;
+	}
+	#rtcolumn img{
+		margin: 0px auto;
+		display: block;
+	}
+}
+
+@media screen and (min-width: 768px){
+	body {
+		max-height: 100%;
+		min-height: 450px;
+		max-width: 100%;
+	}
+
+	#ltcolumn{
+		float:left;
+		margin-left: 1em;
+		width: 25%;
+		max-width: 256px;
+	}
+	#rtcolumn img{
+		float:right;
+		margin-right: 1em;
+	}
+}

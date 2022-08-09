@@ -1,0 +1,119 @@
+html{
+    background-color:black;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+header h2{
+    color:white;
+    text-align: center;
+    margin-top: 30;
+}
+h2, p, form{
+    color: white;
+    margin-left: 100;
+}
+#menu ul {
+	list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template: auto / repeat(6, 1fr);
+    align-content: center;
+}
+#menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#menu a.current {
+	color: greenyellow;
+}
+#guitar{
+    width: 100%;
+    float: center;
+}
+main {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    margin-left: 100px;
+    max-width: 1000px;
+    min-width: 340px;
+    padding: 15px 25px;
+    color:white;
+}
+main h1 { 
+    font-size: 150%;
+    
+}
+main h3 {
+    font-size: 120%;
+    padding: .25em 0 .25em 25px;
+    cursor: pointer;
+}
+
+main a {
+    color: white;
+    text-decoration: none; 
+}
+main h3:focus, main h3:hover { 
+	color: red; 
+}
+div {
+    display: none;
+}
+div.open {
+    display: block;
+}
+
+main p {
+    padding-bottom: .25em;
+    padding-left: 25px;
+}
+#accordion{
+    color: white;
+}
+#message{
+    padding:0em 1em 1.2em 1.3em;
+	border:3px solid white;
+    margin-right: 100px;
+    min-width: 340px;
+}
+
+#message label {
+    float: left;
+    width: 7.7em;
+    text-align: left;
+	font-weight: bold;
+}
+#message input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+textarea {
+        height: 10em;
+        width: 25em; 
+}
+#message h2{
+    color: white;
+    margin-left: auto;
+}
+footer{
+        color:white;
+        text-align: center;
+}
+
+@media only screen and (max-width: 820px){
+    body {
+        width: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 420px){
+    body{
+        width: 35%
+    }
+}

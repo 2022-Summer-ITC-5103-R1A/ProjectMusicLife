@@ -1,0 +1,58 @@
+<html>
+<head>
+    <link rel="stylesheet" href="hk.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+<body>
+    <header>
+        <h2>"MUSIC LIFE"</h2>
+        <nav id="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="peru.html">PERU MUSIC</a></li>
+                <li><a href="nigeria.html">NIGERIA MUSIC</a></li>
+                <li><a class="current" href="hk.html">HONG KONG MUSIC</a></li>
+                <li><a href="game.html">MINI GAME</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <td>
+                    <p><iframe id="player" width="600" height="272.5" src="https://www.youtube.com/embed/uuV8wZ_P8r4?list=PL2TRGyKhDQRzOAb2VckvdJGmDf4KEQ99S" title="Ian 陳卓賢 《留一天與你喘息》Official Music Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                </td>
+            </tr>
+        </table>
+        <h2>Enjoy one of the most popular song in Hong Kong!</h2>
+        <h3>Choose your song: 
+        <select id="song_list">
+            <option value="https://www.youtube.com/embed/uuV8wZ_P8r4?list=PL2TRGyKhDQRzOAb2VckvdJGmDf4KEQ99S">留一天與你喘息</option>
+            <option value="https://www.youtube.com/embed/43cQ1pJm3lw">三個字</option>
+            <option value="https://www.youtube.com/embed/0iahm62GqEo">蝸牛</option>
+        </select></h3>
+        <h4>We change our songlist from time to time. Leave your suggestion below!</h4>
+        <div id="suggestion">
+            <label for="sname">Name of your favorite Hong Kong song:</label>
+            <input type="text" id="sname" name="sname"><br>
+           
+            <button id="submit">Submit</button>
+            <button id="reset">Reset</button>
+        </div>
+        <h3>Suggestions by others</h3>
+        <ul id="comment">
+        </ul>
+    </main>
+    <footer>
+        <hr>
+        <a class="footer1" href="comingsoon.html">Privacy</a>
+        <a class="footer1" href="comingsoon.html">Terms of Use</a>
+        <a class="footer1" href="comingsoon.html">Instagram</a>
+        <a class="footer1" href="comingsoon.html">Facebook</a>
+        <h4>©️ 2022, Music Life</h4>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="hk.js"></script>
+</body>
+</html>
